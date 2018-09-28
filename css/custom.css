@@ -1,0 +1,27 @@
+.info[class] { display: none; }
+
+input.medium, select.medium { 
+	width: 100%;
+  height: 34px;
+}
+
+label.desc, legend.desc {
+	font-size: 16px;
+  color: #fff;
+  font-family: Roboto;
+  font-weight: 100;
+}
+
+
+input.text, input.search, textarea.textarea {
+	font-size: 16px;
+  font-family: Roboto;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+form li.focused {
+    background-color: none;
+    box-shadow: default !important;
+}
+
